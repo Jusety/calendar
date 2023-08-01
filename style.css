@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+}
+
+#date {
+    position: relative;
+    margin-top: 150px;
+}
+
+#next {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 50px;
+}
+
+#prev {
+    position: absolute;
+    margin-top: 5px;
+    margin-right: 50px;
+}
+
+.container div {
+    border: solid 1px;
+    margin: 1px;
+    grid-template-columns: 2px;
+    width: 20px;
+}
+
+.today {
+    background-color: black;
+    color: white;
+}
+
+.dayn {
+    padding: 10px;
+}
